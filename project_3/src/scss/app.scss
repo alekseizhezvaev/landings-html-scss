@@ -1,0 +1,18 @@
+* {
+    font-family: "Gilroy", sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 940px;
+}
+
+@import "variables/variables";
+@import "blocks/header";
+@import "blocks/about";
+@import "blocks/titles";
+@import "blocks/skills";
+@import "blocks/portfolio";
+@import "blocks/footer";
+@import "blocks/btn";
+@import "fonts";

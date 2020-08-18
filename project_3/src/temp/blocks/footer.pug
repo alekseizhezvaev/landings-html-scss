@@ -1,0 +1,15 @@
+include ../mixins/button
+footer.footer
+    .container
+        h2(class="footer__title title") Contacts
+        div(class="footer__subtitle text") Want to know more or just chat?
+            br
+            |You are welcome!
+        +btn('Send message', ["footer__button", "footer__button_active"])
+        .footer__links
+            each val in["img/in.svg", "img/inst.svg", "img/be.svg", "img/ball.svg"]
+                a(href="#")
+                    img(src=val, alt=val)
+        .footer__text Like me on
+            br
+            |LinkedIn, Instagram, Behance, Dribble

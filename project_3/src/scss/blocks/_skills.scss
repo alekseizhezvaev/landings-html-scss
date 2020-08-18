@@ -1,0 +1,15 @@
+.skills {
+    padding: 91px 0 110px 0;
+    text-align: center;
+
+    &__subtitle {
+        margin-top: 69px;
+    }
+
+    &__items {
+        margin-top: 83px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

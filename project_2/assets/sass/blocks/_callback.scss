@@ -1,0 +1,64 @@
+.callback {
+   padding: 134px 0 180px 0;
+
+   &__slider {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+
+   &__slide {
+      display: flex;
+      align-items: center;
+      padding: 61px 88px 57px 65px;
+      box-shadow: 0 0 10px rgba(81, 8, 86, 0.08);
+      border-radius: 10px;
+      margin-right: 26px;
+      margin-top: 85px;
+
+      img {
+         margin-right: 42px;
+      }
+   }
+
+   &__text {
+      color: $text-color;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 24px;
+   }
+
+   &__name {
+      color: $title-color;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 30.1px;
+   }
+
+   &__link {
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 30.1px;
+   }
+
+   .wrapper {
+      position: relative;
+   }
+
+   &__grad {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      background: linear-gradient(to left, rgba(255, 255, 255, 0.699), rgba(255, 255, 255, 0));
+   }
+
+   &__slider-nav {
+      position: absolute;
+      bottom: -49px;
+      left: 33%;
+   }
+
+   &__left {
+      margin-right: 47px;
+   }
+}

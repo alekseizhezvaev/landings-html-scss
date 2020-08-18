@@ -1,0 +1,106 @@
+.header {
+   background: url("../img/main-bg.jpg") center (center / cover) no-repeat;
+   padding: 61px 0 218px 0;
+
+   nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+   }
+
+   &__logo-title {
+      color: #ffffff;
+      font-size: 18px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.9px;
+   }
+
+   &__items {
+      display: flex;
+      justify-content: space-between;
+      width: 484px;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+
+      a {
+         text-decoration: none;
+         color: #ffffff;
+         font-size: 13px;
+         font-weight: 600;
+         text-transform: uppercase;
+         letter-spacing: 0.65px;
+      }
+   }
+
+   &__phone {
+      display: block;
+      color: #ffffff;
+      font-size: 16px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      text-decoration: none;
+      &:hover {
+         color: #ffffff;
+      }
+   }
+
+   &__main {
+      display: flex;
+      align-items: center;
+      margin-top: 87px;
+
+      img {
+         margin-left: -110px;
+         margin-right: 91px;
+      }
+   }
+
+   &__titles {
+      flex-direction: column;
+      justify-content: space-between;
+   }
+
+   &__title {
+      color: #ffffff;
+      font-family: "Muller", sans-serif;
+      font-size: 60px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 1.76px;
+   }
+
+   &__subtitle {
+      color: #ffffff;
+      font-family: "Muller", sans-serif;
+      font-size: 32px;
+      font-weight: 500;
+      margin-top: 30px;
+   }
+
+   &__footer {
+      margin-top: 78px;
+      display: flex;
+      justify-content: space-between;
+   }
+
+   &__descr {
+      color: #ffffff;
+      font-size: 16px;
+      font-weight: 400;
+      max-width: 207px;
+   }
+
+   .container {
+      position: relative;
+   }
+
+   &__down {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: -119px;
+   }
+}

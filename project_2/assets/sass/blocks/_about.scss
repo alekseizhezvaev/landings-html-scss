@@ -1,0 +1,17 @@
+.about {
+   padding: 108px 0 147px 0;
+
+   .container {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+   }
+
+   &__text {
+      max-width: 513px;
+   }
+
+   &__subtitle {
+      margin-top: 40px;
+   }
+}

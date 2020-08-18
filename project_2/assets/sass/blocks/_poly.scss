@@ -1,0 +1,17 @@
+.poly {
+   padding: 142px 0 157px 0;
+   background-color: #faf8fb;
+   .container {
+      position: relative;
+   }
+
+   &__img {
+      position: absolute;
+      right: -85px;
+      top: -120px;
+   }
+
+   &__info {
+      max-width: 556px;
+   }
+}

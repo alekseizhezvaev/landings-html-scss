@@ -1,0 +1,17 @@
+.callback-contacts {
+   &__descr {
+      color: #ffffff;
+      font-size: 14px;
+      font-weight: 300;
+      text-align: right;
+   }
+   &__phone {
+      display: block;
+      color: #ffffff;
+      font-size: 19px;
+      font-weight: 700;
+      &:hover {
+         color: $main-color;
+      }
+   }
+}

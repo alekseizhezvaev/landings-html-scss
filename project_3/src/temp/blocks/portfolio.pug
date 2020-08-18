@@ -1,0 +1,8 @@
+section.portfolio
+    .container
+        h2(class="portfolio__title title") Portfolio
+        .portfolio__items
+            each val in[ ["img/woman.jpg", "Online fashion store - Homepage"], ["img/reebok.jpg","Reebok Store - Concept"], ["img/braun.jpg", "Braun Landing Page - Concept"]]
+                .portfolio__item
+                    img(src=val[0], alt=val[0])
+                    a(href="#" class="text")= val[1]

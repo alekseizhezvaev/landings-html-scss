@@ -1,0 +1,7 @@
+section.skills
+    .container
+        h2(class="skills__title title") Skills
+        div(class="skills__subtitle text") I work in such programs as
+        .skills__items
+            each val in ["img/ps.jpg", "img/ill.jpg", "img/ae.jpg", "img/figma.png"]
+                img(src=val, alt=val).skills_item

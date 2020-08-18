@@ -1,0 +1,19 @@
+header.header
+    .container
+        ul.header__items
+            each val in ['Home', 'About me', 'Skills', 'Portfolio', 'Contacts']
+                li.header__item 
+                    a(href="#" class="header__link")= val
+        hr
+        .header__info
+            h1.header__title Denis 
+                br 
+                |Novik
+            .header__descr UX | UI designer
+                br
+                |24 years old, Minsk
+            .header__lang 
+                span.header__ru RU 
+                || 
+                span(class="header__eng header__lang_active" ) ENG
+        img(src="img/main-img.jpg" alt="author")

@@ -1,0 +1,77 @@
+.services {
+   padding: 103px 0 122px 0;
+   background-color: #faf8fb;
+
+   .container {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+   }
+
+   &__info {
+      max-width: 473px;
+      margin-right: 56px;
+   }
+
+   &__items {
+      margin: 0;
+      padding-left: 7px;
+      max-width: 415px;
+      margin-top: 56px;
+      color: $text-color;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 24px;
+   }
+
+   &__consultation {
+      margin-top: 76px;
+      width: 473px;
+      height: 117px;
+      box-shadow: 0 23px 32px rgba(81, 8, 86, 0.33);
+      border-radius: 10px;
+      background-color: #883eca;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+   }
+
+   &__descr {
+      color: #ffffff;
+      font-size: 13px;
+      line-height: 24px;
+      font-style: italic;
+
+      span {
+         color: #ffffff;
+         font-size: 16px;
+         font-weight: 600;
+         line-height: 24px;
+         font-style: normal;
+      }
+   }
+
+   &__slider {
+      margin-top: 108px;
+   }
+
+   &__slide-footer {
+      display: flex;
+   }
+
+   &__slide-nav {
+      margin-left: 40px;
+      margin-right: 59px;
+   }
+
+   &__left {
+      margin-right: 43px;
+   }
+
+   &__slide-name {
+      color: $text-color;
+      font-size: 13px;
+      font-weight: 400;
+      line-height: 24px;
+   }
+}

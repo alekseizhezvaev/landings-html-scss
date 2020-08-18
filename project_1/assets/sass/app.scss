@@ -1,0 +1,26 @@
+@import "base/variables";
+
+* {
+   font-family: "Roboto", sans-serif;
+}
+
+.container {
+   padding: 0;
+}
+
+@import "blocks/header";
+@import "blocks/buttons";
+@import "blocks/advantage";
+@import "blocks/titles";
+@import "blocks/work";
+@import "blocks/line";
+@import "blocks/agent";
+@import "blocks/prices";
+@import "blocks/consultation";
+@import "blocks/scheme";
+@import "blocks/callback";
+@import "blocks/inputs";
+@import "blocks/questions";
+@import "blocks/contacts";
+@import "blocks/footer";
+@import "fonts";

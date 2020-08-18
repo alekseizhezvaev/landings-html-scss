@@ -1,0 +1,20 @@
+.couch {
+   padding: 127px 0 568px 0;
+   position: relative;
+
+   .container {
+      position: relative;
+      display: flex;
+      justify-content: flex-end;
+   }
+
+   &__bg {
+      position: absolute;
+      left: -235px;
+      z-index: -1;
+   }
+
+   &__info {
+      max-width: 546px;
+   }
+}

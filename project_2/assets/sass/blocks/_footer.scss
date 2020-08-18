@@ -1,0 +1,19 @@
+.footer {
+   background-color: #65269d;
+   padding: 22px 0 25px 0;
+
+   .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      opacity: 0.7;
+      color: #ffffff;
+      font-size: 13px;
+      font-weight: 400;
+   }
+
+   &__policy {
+      color: #ffffff;
+      text-decoration: underline;
+   }
+}

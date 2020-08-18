@@ -1,0 +1,27 @@
+.footer {
+    padding: 114px 0 123px 0;
+    text-align: center;
+
+    &__subtitle {
+        margin-top: 20px;
+        line-height: 22px;
+    }
+
+    &__links {
+        margin-top: 85px;
+
+        a {
+            margin-right: 60px;
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+
+    &__text {
+        margin-top: 45px;
+        font-size: 14px;
+        line-height: 17px;
+        color: #828282;
+    }
+}
